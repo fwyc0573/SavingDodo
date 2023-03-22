@@ -11,3 +11,9 @@ https://www.bilibili.com/video/BV1pc411j7Nf/?vd_source=fcea5d5c4b86183c43910448b
 ![screen1](https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig1.png)
 
 ## Project Overview
+
+
+
+
+## Copyright
+We have applied for a software copyright for this project. Please contact me for any commercial use, otherwise you will be responsible for the consequences.
