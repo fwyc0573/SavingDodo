@@ -1,7 +1,7 @@
 # Saving Dodo
 
 ## Introduction
-My undergraduate work (Course grade A), an independently developed 3D audio game based on the Unity engine (implemented by C#) that has won many awards. The theme of the game is the protection of birds. It's worth mentioning that we collaborated with art students to create the story, characters, etc. It's a complete game, all in all, so feel free to download the EXE to experience it!
+My undergraduate work (course grade A), an independently developed 3D audio game based on the Unity engine (implemented by C#) that has won many awards. The theme of the game is the protection of birds. It's worth mentioning that we collaborated with art students to create the story, characters, etc. It's a complete game, all in all, so feel free to download the EXE to experience it!
 
 ## Video demonstration
 https://www.bilibili.com/video/BV1pc411j7Nf/?vd_source=fcea5d5c4b86183c43910448bde4113d
