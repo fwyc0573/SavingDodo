@@ -16,4 +16,4 @@ https://www.bilibili.com/video/BV1pc411j7Nf/?vd_source=fcea5d5c4b86183c43910448b
 
 
 ## Copyright
-We have applied for a software copyright for this project. Please contact me for any commercial use, otherwise you will be responsible for the consequences.
+We have applied for a software copyright for this project (including design of characters and props). Please contact me for any commercial use, otherwise you will be responsible for the consequences.
