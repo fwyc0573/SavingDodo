@@ -6,7 +6,9 @@ My undergraduate work (course grade A), an independently developed 3D audio game
 ## Video demonstration
 https://www.bilibili.com/video/BV1pc411j7Nf/?vd_source=fcea5d5c4b86183c43910448bde4113d
 
-![screen2](https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig2.png)
+<img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig12.png" height="200" />  <img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig13.png" height="200" /><br/>
+
+<img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/图片5.gif" width="718" />
 
 
 
@@ -34,7 +36,7 @@ The key design and technical implementation of the project is as follows：
     - Finally, update the soft object through using position offsets relative to the central rigid body.
 
 <div align=center>
-<img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/图片1.gif" height="150" />            <img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/图片2.gif" height="150" /><br/>
+<img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/图片3.gif" height="150" />            <img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/图片4.gif" height="150" /><br/>
 </div>
 
 
