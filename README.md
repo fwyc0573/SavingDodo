@@ -8,12 +8,54 @@ https://www.bilibili.com/video/BV1pc411j7Nf/?vd_source=fcea5d5c4b86183c43910448b
 
 ![screen2](https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig2.png)
 
-![screen1](https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig1.png)
+
 
 ## Project Overview
+The key design and technical implementation of the project is as follows：
+
+- Zero-copy implementation of real-time music beat extraction.
+    - First, the Fourier transform is used to transform audio files into the frequency domain and to obtain the relative amplitude values of the frequency bin complex data.
+    - Second, calculation of the spectral flux (i.e. the sum of the differences between the amplitude values corresponding to the frequency bins of adjacent frames).
+    - Third, spectral flux data was trimmed with the aim of finding distinct beats.
+    - Finally, trimmed spectral flux of all frames within a sliding window is averaged and used as a threshold for extracting beats.
+    - This technology enables support for beat analysis of any user uploaded songs.
+
+<div align=center>
+<img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig5.jpg" height="150" />  <img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig6.jpg" height="150" /><br/>
+<img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig3.png" height="150" />  <img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig4.png" height="150" />  <img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig7.png" height="150" />
+</div>
+
+
+- Zero-copy implementation of soft object technology:
+    - First, get the bounds property of the sprite.
+    - Second, create a new mesh grid, which involves initialising the mesh vertices and initialising the materials.
+    - Third, generate rigid body combinations. Initialise whether each rigid body is rotated or not Initialise the offset of each rigid body with respect to the central rigid body.
+    - Fourth, calculate the weight values for each rigid structure (each structure has a different influence on the vertices, with closer reference points contributing more to the final position than more distant ones).
+    - Finally, update the soft object through using position offsets relative to the central rigid body.
+
+<div align=center>
+<img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig5.jpg" height="150" />  <img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig6.jpg" height="150" /><br/>
+<img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig3.png" height="150" />  <img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig4.png" height="150" />  <img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig7.png" height="150" />
+</div>
+
+
+<div align=center>
+<img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig5.jpg" height="150" />  <img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig6.jpg" height="150" /><br/>
+<img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig3.png" height="150" />  <img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig4.png" height="150" />  <img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig7.png" height="150" />
+</div>
+
+
+- Real-time music beat extraction: 
+
+
+- Real-time music beat extraction: 
+
+
+
+
 
 
 
 
 ## Copyright
-We have applied for a software copyright for this project (including design of artwork characters and props). Please contact me for any commercial use, otherwise you will be responsible for the consequences.
+We have applied for a software copyright for this project (including design of artwork characters and props). Please contact me for any commercial use.
