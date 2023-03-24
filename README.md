@@ -8,9 +8,6 @@ https://www.bilibili.com/video/BV1pc411j7Nf/?vd_source=fcea5d5c4b86183c43910448b
 
 ![screen2](https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig2.png)
 
-![screen1](https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig1.png)
-
-
 
 
 ## Project Overview
