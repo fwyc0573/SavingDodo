@@ -26,8 +26,24 @@ The key design and technical implementation of the project is as follows：
 </div>
 
 
-- tango_master
-    - 
+- Zero-copy implementation of soft object technology:
+    - First, get the bounds property of the sprite.
+    - Second, create a new mesh grid, which involves initialising the mesh vertices and initialising the materials.
+    - Third, generate rigid body combinations. Initialise whether each rigid body is rotated or not Initialise the offset of each rigid body with respect to the central rigid body.
+    - Fourth, calculate the weight values for each rigid structure (each structure has a different influence on the vertices, with closer reference points contributing more to the final position than more distant ones).
+    - Finally, update the soft object through using position offsets relative to the central rigid body.
+
+<div align=center>
+<img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig5.jpg" height="150" />  <img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig6.jpg" height="150" /><br/>
+<img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig3.png" height="150" />  <img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig4.png" height="150" />  <img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig7.png" height="150" />
+</div>
+
+
+<div align=center>
+<img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig5.jpg" height="150" />  <img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig6.jpg" height="150" /><br/>
+<img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig3.png" height="150" />  <img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig4.png" height="150" />  <img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig7.png" height="150" />
+</div>
+
 
 - Real-time music beat extraction: 
 
