@@ -29,11 +29,11 @@ The key design and technical implementation of the project is as follows：
 
 
 - Zero-copy implementation of soft object technology.
-    - First, get the bounds property of the sprite.
-    - Second, create a new mesh grid, which involves initialising the mesh vertices and initialising the materials.
-    - Third, generate rigid body combinations. Initialise whether each rigid body is rotated or not Initialise the offset of each rigid body with respect to the central rigid body.
-    - Fourth, calculate the weight values for each rigid structure (each structure has a different influence on the vertices, with closer reference points contributing more to the final position than more distant ones).
-    - Finally, update the soft object through using position offsets relative to the central rigid body.
+    - First, getting the bounds property of the sprite.
+    - Second, creating a new mesh grid, which involves initialising the mesh vertices and initialising the materials.
+    - Third, generating rigid body combinations. Initialise whether each rigid body is rotated or not Initialise the offset of each rigid body with respect to the central rigid body.
+    - Fourth, calculating the weight values for each rigid structure (each structure has a different influence on the vertices, with closer reference points contributing more to the final position than more distant ones).
+    - Finally, updating the soft object through using position offsets relative to the central rigid body.
 
 <div align=center>
 <img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/图片3.gif" height="150" />            <img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/图片4.gif" height="150" /><br/>
