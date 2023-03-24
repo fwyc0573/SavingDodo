@@ -24,7 +24,7 @@ The key design and technical implementation of the project is as follows：
 
 <div align=center>
 <img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig5.jpg" height="150" />  <img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig6.jpg" height="150" /><br/>
-<img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig3.png" height="150" />            <img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig4.png" height="150" />            <img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig7.png" height="150" />
+<img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig3.png" height="161" />            <img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig4.png" height="161" />            <img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig7.png" height="161" />
 </div>
 
 
@@ -36,14 +36,14 @@ The key design and technical implementation of the project is as follows：
     - Finally, updating the soft object through using position offsets relative to the central rigid body.
 
 <div align=center>
-<img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/图片3.gif" height="150" />            <img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/图片4.gif" height="150" /><br/>
+<img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/图片3.gif" height="165" />            <img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/图片4.gif" height="165" /><br/>
 </div>
 
 
 - The parameters related to the difficulty of the game are dynamically adjusted by tracking the user's progress and performance in real time.
 <div align=center>
     
-<img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig8.jpg" height="150" />            <img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig9.jpg" height="150" /><br/>
+<img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig8.jpg" height="165" />            <img src="https://github.com/fwyc0573/SavingDodo/blob/main/fig/fig9.jpg" height="165" /><br/>
 </div>
 
 
