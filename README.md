@@ -18,7 +18,7 @@ The key design and technical implementation of the project is as follows：
 - Zero-copy implementation of real-time music beat extraction.
     - First, the Fourier transform is used to transform audio files into the frequency domain and to obtain the relative amplitude values of the frequency bin complex data.
     - Second, calculation of the spectral flux (i.e. the sum of the differences between the amplitude values corresponding to the frequency bins of adjacent frames).
-    - Third, spectral flux data was trimmed with the aim of finding distinct beats.
+    - Third, spectral flux data is trimmed with the aim of finding distinct beats.
     - Finally, trimmed spectral flux of all frames within a sliding window is averaged and used as a threshold for extracting beats.
     - This technology enables support for beat analysis of any user uploaded songs.
 
@@ -48,7 +48,7 @@ The key design and technical implementation of the project is as follows：
 
 
 - To achieve better performance, object pool management techniques are introduced.
-- Infinite loop generation of the game map by tracking the position of the game characters.
+- Infiniting loop generation of the game map by tracking the position of the game characters.
 
 
 
